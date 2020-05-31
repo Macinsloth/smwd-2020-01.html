@@ -1,0 +1,174 @@
+a:hover {
+    font-weight:bold;
+    text-decoration:underline;
+    color: black;
+  }
+
+.button_1:hover {
+  background-color: grey;
+    }
+
+.anmeldung:hover {
+    background-color: grey;
+    }
+
+.impressum-element:hover {
+    font-weight:bold;
+    text-decoration:underline;
+    }
+
+.anmeldung {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    background-color: #DBD9CE;
+    border-radius: 8px 8px 8px 8px;
+    }
+
+.container-anmeldung {
+    display: flex;
+    flex-flow: row-reverse;
+    }
+
+.boogle {
+    color: blue;
+    font-family: Roboto;
+    font-size: 100px;
+    margin: 10px;
+    }
+
+.boogle-animation {
+      color:#313131;
+      -webkit-animation:colorchange 20s infinite alternate;
+
+
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+
+        color: blue;
+      }
+
+      10% {
+
+        color: #8e44ad;
+      }
+
+      20% {
+
+        color: #1abc9c;
+      }
+
+      30% {
+
+        color: #d35400;
+      }
+
+      40% {
+
+        color: blue;
+      }
+
+      50% {
+
+        color: #34495e;
+      }
+
+      60% {
+
+        color: blue;
+      }
+
+      70% {
+
+        color: #2980b9;
+      }
+      80% {
+
+        color: #f1c40f;
+      }
+
+      90% {
+
+        color: #2980b9;
+      }
+
+      100% {
+
+        color: pink;
+      }
+    }
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #DBD9CE;
+  padding: 5px;
+  height: 20px;
+  border-radius: 8px 8px 8px 8px;
+  outline: none;
+  color: #DBD9CE;
+    }
+
+.button_1 {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    background-color: #DBD9CE;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 8px 8px 8px 8px;
+    }
+
+.container-button-1 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    }
+
+.container-text-1 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    }
+
+.container-main {
+    margin: 150px;
+
+    }
+
+.impressum-element {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    }
+
+
+
+.container-impressum {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    background-color: #DBD9CE;
+    display: flex;
+    flex-flow: row;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
